@@ -111,11 +111,9 @@ form {
 	box-sizing: border-box;
 	margin-bottom: 100px;
 }
-
-.form-group{
+input{
 	width:100%;
 }
-
 .archiveSection{
 	border:1px solid #000;
 	margin-top: 100px;
