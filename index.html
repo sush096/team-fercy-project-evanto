@@ -273,25 +273,3 @@
     </script>
 </body>
 </html>
-
-
-
-<div class="roomPics col-md-6 col-lg-4">
-    <h2>Available Rooms</h2>
-      
-      <div class="card" id="card2">
-      <img src="images/standardRoom2.png" height="250px">
-      <div class="box">
-      <p>$220/NIGHT 
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i></p></div>
-      <div class="pictures p-5">
-      <p class="text">Standard Room</p> 
-      <p  class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam velit iure quas doloremque nostrum eum exercitationem, qui quis ad facilis quidem iste ullam similique consequatur consequuntur placeat eaque vitae! Eius.</p>
-      <button type="button">Select Room</button> 
-    </div>
-  </div>
-</div>
