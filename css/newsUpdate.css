@@ -129,3 +129,9 @@ input{
 	padding: 5px;
 
 }
+
+@media (min-width: 100px) and (max-width: 880px){
+	#newBanner img{
+		height:250px;
+	}
+}
