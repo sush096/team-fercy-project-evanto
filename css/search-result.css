@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+/* Base styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    /* outline: 1px solid red; */
+
+}
+
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Base Styling */
+
+
+.search-result {
+    padding: 113px 20px 38px 20px;
+}
+
+.search-heading {
+    margin-top: 19px;
+}
+.search-categories {
+    margin-top: 13px;
+    margin-bottom: 19px;
+}
+
+.search-result__heading {
+    font-size: 18px;
+    color: #112D4E;
+    font-weight: 500;
+}
+
+.search-result__categories {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4F4F4F;
+    
+}
+.form-control {
+    height: 51px;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #112D4E;
+    border-bottom: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-radius: 0;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none;
+    border-left: 0;
+    border-right: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+}
+
+.input-group-text {
+    border-radius: 0;
+    background-color: transparent;
+    border-right: 0;
+    border-left: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+}
+
+.input-group-text:focus {
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+}
+
+ 
+
+.bckg {
+    background-image: url(../img/search6.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    height: 198px;
+    width:100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 -15px;
+    border-radius: 5px;
+    background:  #3F72AF;
+    opacity: 0.7;
+}
+.overlay-heading {
+    position: absolute;
+    top: 0;
+    margin-top: 70px;
+}
+
+.overlay__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center
+}
+
+.search-courses {
+    margin-top: 13px;
+    margin-bottom: 19px;
+}
+
+.search-result__courses {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+
+.img-style {
+    height: 146px;
+}
+
+.course-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #112D4E;
+}
+.course-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.course-price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.btn {
+    width: 165px;
+    height: 57px;
+    background: #112D4E;
+    border-radius: 5px;
+}
+.btn-enroll {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.row-border {
+    padding-bottom: 22px;
+    border-bottom: 0.5px solid #686868;
+    margin-bottom: 20px;
+}
+.row-border1 {
+    padding-bottom: 22px;
+    border-bottom: 0.5px solid #686868;
+    margin-bottom: 38px
+}
+
+.btn-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-enroll:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    color: #112D4E;
+}
+
+.nav-link  {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #BDBDBD;
+}
+.nav-link:active {
+    color:#3F72AF;
+}
+
+.nav .nav-item:not(:last-child) {
+    margin-right: 47px;
+}
+
+
+/* Media-queries */
+
+@media (min-width: 992px) {
+
+    .search-result {
+        padding: 208px 25px 78px 25px;
+    }
+
+    .search-heading {
+        margin-top: 43px;
+    }
+    .search-categories {
+        margin-top: 66px;
+        margin-bottom: 43px;
+    }
+
+    .search-result__heading {
+        font-size: 30px;
+        color: #112D4E;
+    }
+    .search-result__categories {
+        font-size: 30px;
+        font-weight: 500;
+        color: #4F4F4F;
+    }
+    
+   .bckg {
+       height: 338px;
+       position: relative;
+
+   }
+   .form-control {
+    height: 72px;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    color: #112D4E;
+    border-bottom: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-radius: 0;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none;
+    border-left: 0;
+    border-right: 1px solid #ced4da;
+
+  }
+
+  .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+  }
+
+    .overlay-heading{
+        position: absolute;
+        top: 0;
+        margin-top: 70px;
+        padding-top: 83px;
+    }
+    .overlay__text {       
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .search-courses {
+        margin-top: 66px;
+        margin-bottom: 43px;
+    }
+    
+    .search-result__courses {
+        font-size: 30px;
+        font-weight: 500;
+        color: #4F4F4F;
+    }
+    .course-header {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #112D4E;
+    }
+
+    .course-text {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .course-price {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        color: #000000;
+    }
+
+    .row-border {
+        padding-bottom: 35px;
+        border-bottom: 0.5px solid #686868;
+        margin-bottom: 35px;
+    }
+    .row-border1 {
+        padding-bottom: 35px;
+        border-bottom: 0.5px solid #686868;
+        margin-bottom: 57px
+    
+    }
+
+    .btn-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nav-link  {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #BDBDBD;
+    }
+
+    .nav .nav-item:not(:last-child) {
+        margin-right: 45px;
+    }    
+}

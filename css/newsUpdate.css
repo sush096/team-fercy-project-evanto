@@ -1,0 +1,135 @@
+
+ img{ 
+	width: 100%;
+}
+
+ul{
+	margin-bottom: 0px;
+}
+
+.heading h1{
+width: 401px;
+height: 72px;
+left: calc(50% - 401px/2 - 401.5px);
+top: 564px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bolder;
+font-size: 48px;
+line-height: 72px;
+color: #000000;
+}
+
+.heading p{
+left: calc(50% - 166px/2 - 521px);
+top: 647px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/*display: flex;*/
+align-items: center;
+color: #000000;
+}
+.card{
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+margin-bottom: 25px;
+}
+
+.title{
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+align-items: center;
+}
+
+.text {
+border-top: 1px solid #000;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.date img {
+	width: 15px;
+	margin-right: 25px;
+}
+.pagination img{
+	width: 10px;
+	}
+
+	.page-item .page-link{
+		border-radius: 90%;
+		color: #000;
+		border:none;
+
+	}
+
+	.page-item.active .page-link {
+	z-index: 3;
+	color: #000;
+	background-color: #ececec;
+	/* border-color: #000; */
+}
+
+.page-item:first-child .page-link {
+	margin-left: 0;
+	border-top-left-radius: 0rem;
+	border-bottom-left-radius: 0rem;
+}
+
+
+.listCategories ul li{
+	list-style: none;
+	text-decoration-style: none;
+	border-bottom: 1px solid #000;
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+ul li:last-child{
+	border: none;
+	padding-bottom: 10px;
+}
+
+.listCategories{
+	border:1px solid #000;
+	/*width: 492px;*/
+	box-sizing: border-box;
+}
+form {
+	display: block;
+	border: 1px solid #000;
+	/*width: 350px;*/
+	box-sizing: border-box;
+	margin-bottom: 100px;
+}
+
+.archiveSection{
+	border:1px solid #000;
+	margin-top: 100px;
+}
+
+.archiveSection p{
+	border-bottom: 1px solid #000;
+	padding-top: 25px; 
+}
+
+.archiveSection ul li{
+	list-style: none;
+	display: inline-block;
+	text-decoration-style: none;
+	color: #FFFFFF;
+	background-color:#112D4E;
+	width:25%;
+	margin: 10px;
+	padding: 5px;
+
+}

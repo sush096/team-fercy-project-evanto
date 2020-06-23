@@ -1,0 +1,25 @@
+.devugo-btn {
+    background: $primary-color;
+    color: $white;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid $primary-color;
+    @include transition-ease;
+
+    &:hover {
+        background: $secondary-color;
+        border: 1px solid $secondary-color;
+        color: $white;
+    }
+}
+
+.devugo-inactive__btn{
+    color: $primary-color;
+    border: 2px solid $primary-color;
+    background: $white;
+}
+
+.devugo-disabled__btn {
+    color: $white;
+    background: $disabled-color;
+}

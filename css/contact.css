@@ -1,0 +1,107 @@
+.contact-title {
+    width: 100%;
+    height: 240px;
+    background:  #DBE2EF;
+    background-position: 50% 50%;
+    color: #333333;
+    padding: 20px;
+}
+.contact-title h1{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.contact-title p{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 31px;
+}
+.contact-main{
+    width: 100%;
+    height: 1000px;
+    background:  #ffffff;
+    background-position: 50% 50%;
+    color: #333333;
+    padding-top: 90px;
+}
+.contact-main h2{
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+#contact-text{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.contact-right img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    color: #112D4E
+}
+.contact-right p span{
+    padding-left: 15px;
+}
+.contact-right{
+    margin-top: 88px;
+    padding-left: 140px;
+}
+.contact-input label{
+    font-weight: 500;
+    font-size: 18px;
+}
+.contact-input input{
+    width: 420px;
+    height: 70px;
+    margin-bottom: 30px;
+    border: 1px solid #112D4E;
+    border-radius: 0px;
+}
+.contact-input textarea{
+    width: 420px;
+    height: 178px;
+    margin-bottom: 30px;
+    border: 1px solid #112D4E;
+    border-radius: 0px;
+}
+
+@media (min-width: 560px) and (max-width: 992px) {
+    .contact-main{
+        height: 1000px;   
+    }
+    .contact-right{
+        padding-left: 15px;
+    }
+    div[title="social-media"]{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 550px) {
+    .contact-main{
+        height: 1000px;   
+    }
+    div[title="social-media"]{
+        display: none;
+    }
+    .contact-right{
+        padding-left: 20px;
+    }
+    .contact-input input{
+        width: 300px;
+        height: 70px;
+        margin-bottom: 30px;
+        border: 1px solid #112D4E;
+        border-radius: 0px;
+    }
+    .contact-input textarea{
+        width: 300px;
+        height: 178px;
+        margin-bottom: 30px;
+        border: 1px solid #112D4E;
+        border-radius: 0px;
+    }
+
+}
