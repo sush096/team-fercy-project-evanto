@@ -8,25 +8,19 @@ ul{
 }
 
 .heading h1{
-width: 401px;
-height: 72px;
-left: calc(50% - 401px/2 - 401.5px);
-top: 564px;
 font-family: Poppins;
 font-style: normal;
 font-weight: bolder;
-font-size: 48px;
-line-height: 72px;
+font-size: 38px;
+/*line-height: 72px;*/
 color: #000000;
 }
 
 .heading p{
-left: calc(50% - 166px/2 - 521px);
-top: 647px;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
-line-height: 36px;
+font-size: 18px;
+/*line-height: 36px;*/
 /*display: flex;*/
 align-items: center;
 color: #000000;
@@ -112,7 +106,7 @@ form {
 	margin-bottom: 100px;
 }
 input{
-	width:100%;
+	width:80%;
 }
 .archiveSection{
 	border:1px solid #000;
